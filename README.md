@@ -29,6 +29,9 @@ Tested in: Matlab R2020a on Windows 10 PC and Linux servers (64-bit) with Dynare
 **[program/hh_model](program/hh_model):** files specific to the heterogeneous household model
 - [dynare](program/hh_model/dynare): sub-folder with Dynare model files adapted from Winberry (2018)
 - [auxiliary_functions/likelihood/likelihood_micro.m](program/hh_model/auxiliary_functions/likelihood/likelihood_micro.m): micro likelihood function
+- [micro_macro_two_type.mod](program/hh_model/micro_macro_two_type.mod): Dynare model for two-type household block
+- [micro_macro_params.m](program/hh_model/micro_macro_params.m): Dynare parameter include file for the two-type model
+- [micro_macro_moment_demo.m](program/hh_model/micro_macro_moment_demo.m): Dynare-backed micro--macro moment matching demo
 
 **[program/firm_model](program/firm_model):** files specific to the heterogeneous firm model
 - [dynare](program/firm_model/dynare): sub-folder with Dynare model files adapted from Winberry (2018)
